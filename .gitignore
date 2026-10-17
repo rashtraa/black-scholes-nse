@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# NSE data is not redistributed: download it yourself (see data/README.md)
+data/stock/*.csv
+data/options/*.csv
+
+# Demo output is regenerated on demand
+output/demo/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
